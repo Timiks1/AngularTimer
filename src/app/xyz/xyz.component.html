@@ -1,0 +1,10 @@
+<p id="text">Choose</p>
+<div class="container">
+
+<button class="button" (click)="Change('day')">День</button>
+<button class="button" (click)="Change('night')">Ночь</button>
+</div>
+<p id="result" [ngClass]=bntStyle>{{words}}</p>
+
+
+<app-timer></app-timer>
